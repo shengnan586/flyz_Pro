@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>d</title>
+  </head>
+  <body>
+   <script>
+     var get=getNum();
+     num=4;
+     console.log(get());
+     num=5;
+     console.log(get());
+     num=19;
+     console.log(get());
+     console.log(get());
+     console.log(get());
+     console.log(get());
+     console.log(get());
+     get=null;
+     function getNum()
+     {
+       var num=0;
+       return function(){
+         return ++num;
+       }
+     }
+  </script>
+  </body>
+</html>

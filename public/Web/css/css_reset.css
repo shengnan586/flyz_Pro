@@ -1,0 +1,13 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+html {
+  height: 100%;
+}
+body{font:14px 微软雅黑,simhei,Arial;}
+ul{list-style:none;}
+a{text-decoration:none;}
+.float_left {
+  float: left;
+}
+.float_right{
+  float: right;
+}
