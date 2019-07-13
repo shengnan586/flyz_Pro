@@ -82,7 +82,7 @@
   line-height: 2;
   display: none;
 }
-.content .text_content:target{
+.content .text_content:target,.active{
   display: block;
 }
 .content .text_content .span_title{
